@@ -40,6 +40,12 @@
          width: 600px;
      }
 
+     #menu-botoes div 
+     {
+         width: 60px;
+         height: 60px;
+         background-color: red;
+     }
      #menu-botoes
      {
          padding-left: 10px;
@@ -83,26 +89,40 @@
          background-size:  1920px 1087px;
      }
     
-
-     #ft-m #chamada
+     #ft-m .chamada 
      {
-        margin-top: 200px;
-        margin-left: 200px;
-        width: 200px;
+         margin-top: 200px;
+         margin-left: 200px;
+         margin-bottom: 500px;
+     }
+
+     .chamada
+     {
+        
         height: 100px;
         color: white;
         font-size: 30px;
         display: flex;
      }
-     #marcacao
+     .chamada .conteudo-1
+     {
+         width: 200px;
+     }
+     .chamada .conteudo-2
+     {
+         width: 244px;
+         
+     }
+     .marcacao
      {
          margin-top: 20px;
          margin-right: 5px;
          height: 57px;
-         width: 5px;
+         width: 3px;
          background-color: #FF4343;
+         display: flex;
      }
-     #comprar
+     .comprar
      {
          margin: 10px;
          padding: 20px;
@@ -115,19 +135,168 @@
      
      #pg-m
      {
-         margin-top: 273px;
+         margin-top: 23px;
          height: 1625px;
-         background-color: white;
+         background-color: #F6F6F6;
          background-image: url("../imgs/foto2.png");
          background-position: center;
          background-repeat: no-repeat;
          background-size:  1908px 1625px;
+         display: flex;
+         flex-direction: column;
+     }
+     
+     .info
+     {
+         display: flex;
+         justify-content: center;
+         margin-top: 60px;
+     }
+
+     #pg-m .chamada 
+     {
+        margin: 180px 500px 0 0;
+         justify-content: center;
+     }
+
+     #pg-m .info div
+     {
+         margin-left: 200px;
+        width: 300px;
+        color: white;
+        font-size: 16px;
+     }
+     #pg-m .info p 
+     {
+         width: 270px;
+         margin-bottom: 100px;
+     }
+
+     .info div a 
+     {
+         
+         color: #FF4343;
+         text-decoration: none;
+     }
+
+     #pg-f
+     {
+        background-color: #F6F6F6;
+         width: 100%;
+         height: 600px;
+         display: table;
+
+     }
+
+     #pg-f .info div
+     {
+        margin-left: 200px;
+        width: 300px;
+        color: black;
+        font-size: 16px;
+     }
+     #pg-f div 
+     {
+         color: black;
+     }
+
+     #pg-f .info p 
+     {
+         width: 270px;
+         margin-bottom: 100px;
+     }
+
+     #pg-f .info a 
+     {
+         color: white;
+     }
+
+     #pg-f .chamada
+     {
+        margin: 0px 500px 0 0;
+        justify-content: center;
      }
      #pg-f
      {
-
-         background-color: white;
+         margin-top: -350px;
+     }
+     #pg-p
+     {
+         display: flex;
          width: 100%;
+         height: 600px;
+         justify-content: center;
+         background-color: #F6F6F6;
+     }
+     #pg-p div 
+     {
+         display: flex;
+        justify-content: center;
+     }
+     #pg-p div div
+     {
+         width: 300px;
+        height: 403px;
+     }
+
+     #pg-l .chamada 
+     {
+         
+        margin: 150px 500px 0 0;
+     }
+
+     #pg-l div 
+     {
+         color: black;
+         justify-content: center;
+         
+     }
+     #pg-l
+     {
+         margin-top: -200px;
+        background-color: #F6F6F6;
+        width: 100%;
+        height: 600px;
+        display: table;
+        justify-self: center;
+        background-image: url("/imgs/foto_final.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:  1152px 623px;
+        background-position-x: center;
+     }
+
+     
+
+     #pg-l .info div
+     {
+        margin-left: 50px;
+        color: black;
+        font-size: 16px;
+     }
+     #pg-l .info
+     {
+         width: 325px;
+     }
+
+     footer 
+     {
+         display: flex;
+         height: 120px;
+         width: 100%;
+         background-color: black;
+         flex-direction: row;
+         justify-content: center;
+     }
+     footer nav
+     {
+         text-decoration: none;
+         color: white;
+         width: 1220px;
+         height: 100px;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
      }
  }
  
